@@ -1,0 +1,6 @@
+title: "Jekyll Template| YouTube Clone"
+baseurl: "/video-platform" 
+url: "http://chayapholsmile.github.io"
+collections:
+  videos:
+    output: true
