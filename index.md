@@ -8,7 +8,7 @@ title: "Home"
     {% for video in site.videos %}
         <div class="video">
             <h3><a href="{{ video.url | relative_url }}">{{ video.title }}</a></h3>
-            <iframe width="560" height="315" src="{{ video.video_url }}" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://img.youtube.com/vi/{{ vidoe.youtube_video_url }}/maxresdefault.jpg" frameborder="0" allowfullscreen></iframe>
         </div>
     {% endfor %}
 </div>
