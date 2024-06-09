@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header, footer {
+    background-color: #202020;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    padding: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.video-container {
+    margin-bottom: 2em;
+}
+
+iframe {
+    width: 100%;
+    height: auto;
+}
+
+.videos {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.video {
+    border: 1px solid #ccc;
+    padding: 1em;
+    background-color: #fff;
+}
