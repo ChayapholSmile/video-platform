@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
+</head>
+<body>
+    <header>
+        <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+    </header>
+    <main>
+        <div class="video-container">
+            <h2>{{ page.title }}</h2>
+            <iframe width="560" height="315" src="{{ page.video_url }}" frameborder="0" allowfullscreen></iframe>
+            <p>{{ page.description }}</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
+    </footer>
+</body>
+</html>
